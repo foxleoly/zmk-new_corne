@@ -79,7 +79,7 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &trans           &trans          &trans        &trans        &trans                                         &mmv MOVE_UP                     &kp MINUS           &kp N7           &kp N8           &kp N9           &kp PLUS    &kp BSPC
+&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                                         &mmv MOVE_UP                     &kp MINUS           &kp N7           &kp N8           &kp N9           &kp PLUS    &kp BSPC
 &trans  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp UNDER           &kp N4           &kp N5           &kp N6    &kp EQUAL   &kp SQT
 &trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans              &kp N1           &kp N2           &kp N3    &kp FSLH   &kp DEL
                                          &trans        &trans        &trans                                                                          &trans          &kp DEL          &kp N0
@@ -91,9 +91,9 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp TILDE      &kp PIPE        &kp LBRC   &kp RBRC   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &kp GRAVE    &kp BSLH     &kp LPAR    &kp RPAR   &trans        &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT   &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&trans  &out OUT_USB  &out OUT_BLE  &kp LBKT   &kp RBKT     &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
+&trans   &kp EXCL      &kp AT        &kp HASH    &kp DLLR   &kp PRCNT                        &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
+&trans   &kp TILDE     &kp LBKT      &kp RBKT    &kp LPAR   &kp RPAR                  &mmv MOVE_LEFT  &mkp LCLK    &mmv MOVE_RIGHT   &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
+&trans   &trans        &kp GRAVE     &kp PIPE    &kp LBRC   &kp RBRC                        &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                                     &trans     &trans     &kp SPACE                                                             &kp RET    &trans     &trans
             >;
 

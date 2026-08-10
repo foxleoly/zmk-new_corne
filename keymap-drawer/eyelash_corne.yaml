@@ -34,7 +34,7 @@ layers:
   - X
   - C
   - V
-  - {t: B, h: '$$mdi:apple-keyboard-option$$'}
+  - B
   - $$mdi:volume-off$$
   - $$mdi:arrow-down-bold$$
   - N

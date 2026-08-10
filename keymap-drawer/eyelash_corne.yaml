@@ -97,7 +97,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '0', s: )}
+  - {t: ., s: '>'}
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'

@@ -9,7 +9,7 @@ config ZMK_KEYBOARD_NAME
     default "Corne"
 
 config ZMK_SPLIT_ROLE_CENTRAL
-    default y
+    default n
 
 endif # BOARD_CORNE_LEFT
 
@@ -67,6 +67,5 @@ endchoice
 endif
 
 endif # BOARD_CORNE_LEFT || BOARD_CORNE_RIGHT
-
 
 

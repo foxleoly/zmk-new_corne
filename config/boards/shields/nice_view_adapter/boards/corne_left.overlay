@@ -28,3 +28,4 @@ nice_view_spi: &spi0 {
     status = "disabled";
 };
 
+

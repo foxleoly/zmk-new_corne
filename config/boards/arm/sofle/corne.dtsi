@@ -19,7 +19,6 @@
         zephyr,sram = &sram0;
         zephyr,flash = &flash0;
         zmk,kscan = &kscan0;
-        zephyr,display = &oled;
         zephyr,console = &cdc_acm_uart;
         zmk,underglow = &led_strip;
         zmk,matrix-transform = &default_transform;
@@ -161,6 +160,7 @@
 		com-invdir;
 		com-sequential;
 		prechargep = <0x22>;
+		status = "disabled";
 	};
 };
 
@@ -187,4 +187,3 @@
         color-mapping = <LED_COLOR_ID_GREEN LED_COLOR_ID_RED LED_COLOR_ID_BLUE>;
     };
 };
-
